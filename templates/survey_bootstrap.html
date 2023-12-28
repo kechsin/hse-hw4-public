@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sociolinguistic survey</title>
+    <style>
+        /* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+        /* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+  		    border: 1px solid #777;
+  			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+        /* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+		    display: inline-block;
+			width: auto;
+		}
+		nav {
+            padding: 16px 0;
+            background-color: #FFE8FF;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-left: 10px;
+            text-transform: uppercase;
+        }
+        nav ul li:first-child {
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<nav>
+    <ul>
+      <li><a href="/">Главная</a></li>
+      <li><a href="/form">Опрос</a></li>
+      <li><a href="/stats">Статистика</a></li>
+      <li><a href="/after">О чём опрос (заходите ПОСЛЕ прохождения)</a></li>
+    </ul>
+</nav>
+<body>
+<text>
+    Какие из этих предложений кажутся вам грамматичными (нормальными)?
+</text>
+<form>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="question1">
+        <label class="form-check-label" for="question1">
+            Я Катю ругаю.
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="question2">
+        <label class="form-check-label" for="question2">
+            Я Ксюше ругаю.
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="question3">
+        <label class="form-check-label" for="question3">
+            Я Стёпой ругаю.
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="question4">
+        <label class="form-check-label" for="question4">
+            Я ругаю.
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="question5">
+        <label class="form-check-label" for="question5">
+            Я ругаю Полине.
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="question6">
+        <label class="form-check-label" for="question6">
+            Я ругаю Колю.
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="question7">
+        <label class="form-check-label" for="question7">
+            Я ругаю Настей.
+        </label>
+    </div>
+
+    <br> <br>
+
+    <text>
+            А из этих какие предложения кажутся вам грамматичными (нормальными)?
+    </text>
+
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="question2-1">
+        <label class="form-check-label" for="question2-1">
+            Елизавета ругала пьесу маме.
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="question2-2">
+        <label class="form-check-label" for="question2-2">
+            Александр ругал тяжёлую судьбу.
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="question2-3">
+        <label class="form-check-label" for="question2-3">
+            София ругала солистку оперы.
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="question2-4">
+        <label class="form-check-label" for="question2-4">
+            Анна ругала поступком Алису.
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="question2-5">
+        <label class="form-check-label" for="question2-5">
+            Антуанетта ругала сына коллеге.
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="question2-6">
+        <label class="form-check-label" for="question2-6">
+            Евгения ругала маме пробки.
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="question2-7">
+        <label class="form-check-label" for="question2-7">
+            Дарья ругала прыщи Сергей.
+        </label>
+    </div>
+
+    <br><br>
+
+    <img src="static/1.png">
+    <br>
+
+    <text>
+        Закончите описание этой картинки.
+    </text>
+
+    <div class="form-group">
+        <label for="picdescr1">Женщина ругает</label>
+        <input class="form-control" id="picdescr1"
+               type="text">
+        <small class="form-text text-muted" id="piccomment1">Вставьте одно или два слова.</small>
+    </div>
+    <br><br>
+
+    <img src="static/2.png">
+    <br>
+
+    <text>
+        Закончите описание этой картинки.
+    </text>
+
+    <div class="form-group">
+        <label for="picdescr2">Женщина ругает</label>
+        <input class="form-control" id="picdescr2"
+               type="text">
+        <small class="form-text text-muted" id="piccomment2">Вставьте одно или два слова.</small>
+    </div>
+    <br><br>
+
+    <img src="static/3.png">
+    <br>
+
+    <text>
+        Закончите описание этой картинки.
+    </text>
+
+    <div class="form-group">
+        <label for="picdescr3">Женщина ругает</label>
+        <input class="form-control" id="picdescr3"
+               type="text">
+        <small class="form-text text-muted" id="piccoment3">Вставьте одно или два слова.</small>
+    </div>
+
+    <br><br>
+
+    <text>
+        Теперь несколько общих вопросов.
+    </text>
+
+    <div class="form-group">
+        <label for="age">Сколько вам лет?:</label>
+        <input type="number" id="age" name="age"/>
+    </div>
+
+    <div class="form-group">
+        <label for="city">Из какого вы города?</label>
+        <input class="form-control" id="city" type="text">
+    </div>
+
+    <button class="btn btn-primary" type="submit">Submit</button>
+</form>
+</body>
+</html>
